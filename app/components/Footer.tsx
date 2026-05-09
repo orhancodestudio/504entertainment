@@ -1,5 +1,3 @@
-import { Logo } from "./Logo";
-
 export function Footer() {
   const year = new Date().getFullYear();
   return (
@@ -13,7 +11,9 @@ export function Footer() {
       <div className="relative mx-auto max-w-7xl px-5 sm:px-8 py-16">
         <div className="grid md:grid-cols-12 gap-10">
           <div className="md:col-span-5">
-            <Logo size={42} />
+            <span className="font-display font-black uppercase tracking-[0.18em] leading-none whitespace-nowrap text-[1.25rem]">
+              504<span className="text-brand-bright"> ENTERTAINMENT</span>
+            </span>
             <p className="mt-5 text-foreground/65 max-w-sm leading-relaxed">
               Bağımsız bir müzik ve görsel üretim kültürü. İstanbul Küçükçekmece
               merkezli, 2025'te kuruldu.
